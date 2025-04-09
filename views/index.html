@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Hub - Home</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Cricket Hub</div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/matches">Matches</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/players">Players</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Welcome to Cricket Hub</h1>
+        <p>Your one-stop destination for all cricket information</p>
+      </section>
+
+      <section class="features">
+        <div class="feature-card">
+          <h2>Live Scores</h2>
+          <p>Get real-time updates on ongoing matches</p>
+          <a href="/matches" class="btn">View Matches</a>
+        </div>
+
+        <div class="feature-card">
+          <h2>Latest News</h2>
+          <p>Stay updated with cricket news from around the world</p>
+          <a href="/news" class="btn">Read News</a>
+        </div>
+
+        <div class="feature-card">
+          <h2>Player Stats</h2>
+          <p>Detailed statistics of your favorite players</p>
+          <a href="/players" class="btn">View Players</a>
+        </div>
+      </section>
+
+      <section class="live-updates">
+        <h2>Recent Matches</h2>
+        <div id="home-matches-container" class="matches-grid"></div>
+
+        <h2>Latest News</h2>
+        <div id="home-news-container" class="news-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Cricket Hub. All rights reserved.</p>
+      <p>Data provided by CricketAPI, NewsAPI, and OpenWeatherMap</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

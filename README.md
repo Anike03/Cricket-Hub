@@ -1,4 +1,3 @@
-# Cricket-Hub
 Cricket Hub API 🏏
 
 A comprehensive REST API for cricket enthusiasts providing live scores, player statistics, and news.
@@ -75,7 +74,6 @@ Copy
     }
   ]
 }
-
 2. Player Data
 Copy
 GET /api/players
@@ -101,7 +99,6 @@ Copy
     }
   ]
 }
-
 3. Player Details
 Copy
 GET /api/player/:id
@@ -126,7 +123,6 @@ Copy
     }
   }
 }
-
 4. Cricket News
 Copy
 GET /api/news

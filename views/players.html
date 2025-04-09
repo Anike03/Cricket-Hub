@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Hub - Players</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cricket Hub</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/matches">Matches</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/players">Players</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Player Statistics</h1>
+        
+        <div class="search-box">
+            <input type="text" id="player-search" placeholder="Search players by name..." 
+                   aria-label="Search players">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div id="players-container"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Cricket Hub. All rights reserved.</p>
+        <p>Data provided by CricketAPI, NewsAPI, and OpenWeatherMap</p>
+    </footer>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
